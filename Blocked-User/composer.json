@@ -1,0 +1,20 @@
+{
+    "name": "mahi/blocked-user",
+    "description": "Blocked a user, and she/he can't access the admin panel.",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "mahi",
+            "email": "hello@abdullahmahi.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Blocked\\User\\" : "includes/"
+        },
+        "files": [ ]
+    }
+}
